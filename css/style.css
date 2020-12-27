@@ -1,0 +1,278 @@
+*{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline-block;
+}
+
+.header {
+    background-color: #fdfdfd;
+    margin: 0;
+    padding: 0;
+    
+}
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.container {
+    max-width: 970px;
+    margin: 0 auto;
+     padding: 0 15px;
+}
+.header__logo a{
+    font-size: 36px;
+    font-weight: 600;
+    color: #e8603c;
+}
+.header__logo span{
+    color: #f3af9d;
+}
+.header__logo{
+    margin-top: 21px;
+    margin-bottom: 23px;
+}
+.header__menu li{
+    margin-left: 30px;
+}
+.header__link a{
+    font-size: 20px;
+    font-weight: 400;
+    
+    color: #b9b9b9;
+}
+.header__link a:hover{
+    color:  #e8603c;
+}
+
+.header__menu-row {
+   width: 100%;
+   height: 4px;
+   background-color: #e8663c;
+   margin-bottom: 7px;
+}
+.header__menu-btn{
+    width: 40px; 
+    display: none; 
+}
+
+
+
+
+
+
+.slider__item{
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.thubs__item{
+    width: 140px;
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.slider{
+    margin-bottom: 20px;
+}
+.thumbs .slick-slide{
+    max-width: 140px;
+}
+.thumbs .slick-track div + div{
+     margin-left: 20px; 
+}
+
+
+
+.items {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.item__inner {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.item {
+    width: 280px;
+}
+.item__title {
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #e8663c;
+    margin-bottom: 40px;
+    
+}
+.item__icons img{
+   padding-right: 21px;
+   width: 40px;
+   height: 40px;
+  
+}
+.item__text p{
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 22px;
+}
+.item__link {
+    color: #fff;
+    font-size: 12px;
+}   
+.btn{
+    background-color: #e8663c;
+    border: none;
+    width: 54px;
+    height: 30px;
+}
+
+
+
+
+.work {
+    margin-bottom: 50px;
+}
+.work__title-line{
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.work__title {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #e8663c;
+}
+.work__line {
+    width: 800px;
+    height: 10px;
+    border: 1px solid #c3c3c3;
+    background-color: #c3c3c3;
+    padding: 0;
+}
+.work__inner {
+}
+.work__inner-item {
+}
+.work__inner-box img {
+    width: 100%;
+}
+.work__inner-box{
+    margin-left: 18px;
+   
+}
+.box__title {
+    padding: 20px 80px 11px 15px;
+    font-size: 18px;
+    color: #c3c3c3;
+}
+.box__date {
+    padding: 0px 80px 11px 15px;
+     color: #e8663c;
+}
+
+
+.photo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    align-items:center;
+}
+.photo__title {
+    font-size: 30px;
+    font-weight: 600;
+    color: #000;
+    line-height: 36px;
+}
+.photo__title span{
+    color: #e8603c;
+}
+
+.photo__img img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+.footer {
+    background-color: #e8663c;
+}
+
+.footer__company {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__about {
+    max-width: 270px;
+    padding: 0 50px 50px 30px;
+}
+.about__title,
+.contact__title,
+.widget__title{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.about__text p{
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+}
+.footer__widget {
+    max-width: 230px;
+}
+
+.widget__twitter p{
+    padding-bottom: 25px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+}
+.footer__contact {
+    max-width: 250px;
+}
+
+.contact__social p{
+    padding-bottom: 35px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+}
+.social__link li {
+    padding-right: 10px;
+}
+
+.test{
+    overflow-x: hidden;
+}
